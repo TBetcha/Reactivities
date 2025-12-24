@@ -1,0 +1,15 @@
+/Users/tmb/Code/Csharp/Reactvities/Persistence/bin/Debug/net9.0/Persistence.deps.json
+/Users/tmb/Code/Csharp/Reactvities/Persistence/bin/Debug/net9.0/Persistence.dll
+/Users/tmb/Code/Csharp/Reactvities/Persistence/bin/Debug/net9.0/Persistence.pdb
+/Users/tmb/Code/Csharp/Reactvities/Persistence/bin/Debug/net9.0/Domain.dll
+/Users/tmb/Code/Csharp/Reactvities/Persistence/bin/Debug/net9.0/Domain.pdb
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.csproj.AssemblyReference.cache
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.AssemblyInfoInputs.cache
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.AssemblyInfo.cs
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persiste.61C28332.Up2Date
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.dll
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/refint/Persistence.dll
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.pdb
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/ref/Persistence.dll

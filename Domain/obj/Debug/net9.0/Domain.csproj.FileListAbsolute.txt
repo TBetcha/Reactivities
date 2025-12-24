@@ -1,0 +1,11 @@
+/Users/tmb/Code/Csharp/Reactvities/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/tmb/Code/Csharp/Reactvities/Domain/bin/Debug/net9.0/Domain.dll
+/Users/tmb/Code/Csharp/Reactvities/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.dll
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/ref/Domain.dll
