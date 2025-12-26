@@ -9,3 +9,4 @@
 /Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/refint/Domain.dll
 /Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.pdb
 /Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/ref/Domain.dll
+/Users/tmb/Code/Csharp/Reactvities/Domain/obj/Debug/net9.0/Domain.sourcelink.json

@@ -13,3 +13,4 @@
 /Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/refint/Persistence.dll
 /Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.pdb
 /Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/ref/Persistence.dll
+/Users/tmb/Code/Csharp/Reactvities/Persistence/obj/Debug/net9.0/Persistence.sourcelink.json
