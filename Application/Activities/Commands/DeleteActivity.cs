@@ -1,26 +1,24 @@
-using AutoMapper;
-using Domain;
 using MediatR;
 using Persistence;
 
 namespace Application.Activities.Commands
 {
-    public class EditActivity
+    public class DeleteActivity
     {
         public class Command : IRequest
         {
-            public required Activity Activity { get; set; }
+            public required string Id { get; set; }
         }
 
-        public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Command>
+        public class Handler(AppDbContext context) : IRequestHandler<Command>
         {
             public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var activity = await context.Activities
-                    .FindAsync([request.Activity.Id], cancellationToken)
+                    .FindAsync([request.Id], cancellationToken)
                     ?? throw new Exception("Activity not found");
 
-                mapper.Map(request.Activity, activity);
+                context.Remove(activity);
                 await context.SaveChangesAsync(cancellationToken);
             }
 

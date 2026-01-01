@@ -155,3 +155,5 @@
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
+/Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/AutoMapper.dll
+/Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
