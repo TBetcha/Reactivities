@@ -1,7 +1,8 @@
 /** @format */
-import { Typography, List, ListItem, ListItemText } from '@mui/material'
+import { Container, CssBaseline, List, ListItem, ListItemText } from '@mui/material'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import Navbar from './Navbar'
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([])
@@ -15,14 +16,17 @@ function App() {
 
   return (
     <>
-      <Typography variant='h3'>Reactivities</Typography>
-      <List>
-        {activities.map((activity: Activity) => (
-          <ListItem key={activity.id}>
-            <ListItemText primary={activity.title} />
-          </ListItem>
-        ))}
-      </List>
+      <CssBaseline />
+      <Navbar />
+      <Container maxWidth='xl' sx={{ mt: 3 }}>
+        <List>
+          {activities.map((activity: Activity) => (
+            <ListItem key={activity.id}>
+              <ListItemText primary={activity.title} />
+            </ListItem>
+          ))}
+        </List>
+      </Container>
     </>
   )
 }
