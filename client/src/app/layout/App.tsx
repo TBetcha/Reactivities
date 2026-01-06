@@ -2,8 +2,6 @@
 import { Typography, List, ListItem, ListItemText } from '@mui/material'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-import './App.css'
-import './lib/types/index.d.ts'
 
 function App() {
   const [activities, setActivities] = useState<Activity[]>([])

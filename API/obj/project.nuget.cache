@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gB6iQQeVo5g=",
+  "dgSpecHash": "yCnW0DIbDcA=",
   "success": true,
   "projectFilePath": "/Users/tmb/Code/Csharp/Reactvities/API/API.csproj",
   "expectedPackageFiles": [
@@ -60,8 +60,7 @@
     "/Users/tmb/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/system.text.json/9.0.0/system.text.json.9.0.0.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.9/microsoft.netcore.app.host.osx-arm64.9.0.9.nupkg.sha512"
+    "/Users/tmb/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
