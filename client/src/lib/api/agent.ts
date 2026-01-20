@@ -11,7 +11,7 @@ const sleep = (delay: number) => {
 }
 agent.interceptors.response.use(async response => {
     try {
-        await sleep(1000)
+        await sleep(400)
         return response
 
     } catch (error) {
