@@ -157,3 +157,5 @@
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/System.Diagnostics.DiagnosticSource.dll
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/AutoMapper.dll
 /Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/FluentValidation.dll
+/Users/tmb/Code/Csharp/Reactvities/API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
