@@ -12,7 +12,7 @@ namespace API.Controllers
         protected IMediator Mediator => _mediator ??= HttpContext.RequestServices.GetRequiredService<IMediator>()
         ?? throw new InvalidOperationException("IMediator service is not available");
 
-        protected ActionResult<T> HandleResult<T>(Result<T> result)
+        protected ActionResult HandleResult<T>(Result<T> result)
         {
 
             if (!result.IsSuccess && result.Code == 404)
@@ -20,7 +20,7 @@ namespace API.Controllers
                 return NotFound();
             }
 
-            if (result.IsSuccess && result.Value != null) return result.Value;
+            if (result.IsSuccess && result.Value != null) return Ok(result.Value);
 
             return BadRequest(result.Error);
         }
