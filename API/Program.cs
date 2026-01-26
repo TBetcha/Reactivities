@@ -1,9 +1,7 @@
 using Application.Activities.Queries;
 using Application.Core;
-using AutoMapper;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
