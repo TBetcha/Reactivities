@@ -1,4 +1,3 @@
-using System;
 using Application.Activities.DTOs;
 using AutoMapper;
 using Domain;
@@ -14,11 +13,11 @@ namespace Application.Activities.Commands
         {
             public required CreateActivityDto ActivityDto { get; set; }
         }
-        public class Handler(AppDbContext context, IMapper mapper, IValidator<Command> validator) : IRequestHandler<Command, string>
+        public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Command, string>
         {
             public async Task<string> Handle(Command request, CancellationToken cancellationToken)
             {
-                await validator.ValidateAndThrowAsync(request, cancellationToken);
+
                 var activity = mapper.Map<Activity>(request.ActivityDto);
                 context.Activities.Add(activity);
                 await context.SaveChangesAsync(cancellationToken);
