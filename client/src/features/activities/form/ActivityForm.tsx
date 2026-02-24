@@ -9,6 +9,7 @@ import { activitySchema, type ActivitySchema } from '../../../lib/schemas/activi
 import { zodResolver } from '@hookform/resolvers/zod'
 import { categoryOptions } from './CategoryOptions'
 import SelectInput from '../../../app/shared/components/SelectInput'
+import TextInput from '../../../app/shared/components/TextInput'
 // import SelectInput from '../../../app/shared/components/SelectInput'
 
 export default function ActivityForm() {
@@ -41,11 +42,12 @@ export default function ActivityForm() {
         flexDirection='column'
         gap={3}
       >
+        <TextInput label='Title' control={control} name='title' />
+        <TextInput label='Description' control={control} name='description' />
         <SelectInput items={categoryOptions} label='Category' control={control} name='category' />
-        <SelectInput label='Category' control={control} name='category' items={[]} />
-        <SelectInput label='Date' control={control} name='date' items={[]} />
-        <SelectInput label='City' control={control} name='city' items={[]} />
-        <SelectInput label='Venue' control={control} name='venue' items={[]} />
+        <TextInput label='Date' control={control} name='date' />
+        <TextInput label='City' control={control} name='city' />
+        <TextInput label='Venue' control={control} name='venue' />
         <Box display='flex' justifyContent='end' gap={3}>
           <Button color='inherit'>Cancel</Button>
           <Button
