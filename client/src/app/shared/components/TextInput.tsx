@@ -10,10 +10,11 @@ export default function TextInput<T extends FieldValues>(props: Props<T>) {
     <TextField
       {...props}
       {...field}
+      value={field.value || ''}
       fullWidth
       variant='outlined'
       error={!!fieldState.error}
-      helperText={fieldState.error?.message}
+      helperText={fieldState.error ? fieldState.error.message : null}
     />
   )
 }
