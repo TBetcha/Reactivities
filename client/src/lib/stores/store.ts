@@ -2,7 +2,7 @@
 
 import { createContext } from 'react'
 import CounterStore from './counterStore'
-import { UiStore } from './uiStore'
+import { UiStore } from './UiStore'
 
 interface Store {
   counterStore: CounterStore
