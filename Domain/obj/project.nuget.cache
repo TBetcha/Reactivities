@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4liXtMdsHv8=",
+  "dgSpecHash": "DrUwMRI8L+Q=",
   "success": true,
-  "projectFilePath": "/Users/tmb/Code/Csharp/Reactvities/Domain/Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/tmb/.nuget/packages/microsoft.netcore.app.ref/9.0.14/microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.14/microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/tmb/Code/Csharp/Reactivities/Domain/Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

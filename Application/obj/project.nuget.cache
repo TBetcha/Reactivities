@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ep5mi/Ss3YY=",
+  "dgSpecHash": "z9cSobpNIwE=",
   "success": true,
-  "projectFilePath": "/Users/tmb/Code/Csharp/Reactvities/Application/Application.csproj",
+  "projectFilePath": "/Users/tmb/Code/Csharp/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/tmb/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/tmb/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -10,7 +10,6 @@
     "/Users/tmb/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "/Users/tmb/.nuget/packages/mediatr/14.0.0/mediatr.14.0.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/microsoft.data.sqlite.core/9.0.0/microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/microsoft.entityframeworkcore/9.0.0/microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "/Users/tmb/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0/microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
@@ -35,24 +34,19 @@
     "/Users/tmb/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "/Users/tmb/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
     "/Users/tmb/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0/system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/system.text.json/9.0.0/system.text.json.9.0.0.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/microsoft.netcore.app.ref/9.0.14/microsoft.netcore.app.ref.9.0.14.nupkg.sha512",
-    "/Users/tmb/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.14/microsoft.aspnetcore.app.ref.9.0.14.nupkg.sha512"
+    "/Users/tmb/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.10/sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "/Users/tmb/Code/Csharp/Reactvities/Application/Application.csproj",
+      "projectPath": "/Users/tmb/Code/Csharp/Reactivities/Application/Application.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/tmb/Code/Csharp/Reactvities/Application/Application.csproj",
+      "filePath": "/Users/tmb/Code/Csharp/Reactivities/Application/Application.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
-        "net9.0"
+        "net10.0"
       ]
     }
   ]
